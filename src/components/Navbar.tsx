@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './Navbar.css';
+import '../styles/navbar.css';
 
-export default class Navbar extends Component {
+export default class NavbarComponent extends Component {
   render() {
     return <nav>Video Feed</nav>;
   }

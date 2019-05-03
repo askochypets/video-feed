@@ -1,0 +1,23 @@
+.filter-wrapper {
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 40px auto;
+}
+.filter-wrapper .button {
+  background: #f1f1f1;
+  color: #889aab;
+  text-shadow: 0.5px 0px 1px #889aab;
+  text-transform: uppercase;
+  border: 1px solid #e2e2e2;
+  padding: 10px;
+}
+
+.filter-wrapper .button + .button {
+  margin-left: 15px;
+}
+.filter-wrapper .button:hover,
+.filter-wrapper .button.active {
+  cursor: pointer;
+  box-shadow: 0 1px 4px 0 #ccc;
+}

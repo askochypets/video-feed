@@ -1,0 +1,32 @@
+.feed-layout {
+  width: 80%;
+  margin: 0 auto 40px auto;
+  border: 1px solid #e2e2e2;
+  border-radius: 3px 3px 0 0;
+  box-sizing: border-box;
+}
+.feed-layout.error {
+  border-color: #f5c6cb;
+  color: #721c24;
+  background: #f8d7da;
+  padding: 50px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  color: #615c5c;
+  text-shadow: 0.5px 0px 1px #615c5c;
+  padding: 30px 20px;
+}
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
