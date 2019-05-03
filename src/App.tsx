@@ -1,15 +1,8 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Feed from './Feed';
-import './App.css';
+import HomePage from './HomePage';
 
 const App: React.FC = () => {
-  return (
-    <div className='App'>
-      <Navbar />
-      <Feed />
-    </div>
-  );
+  return <HomePage />;
 };
 
 export default App;
